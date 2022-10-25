@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.body
+{
+    background-image: url('cash.jpg');
+    font-family: 'Montserrat', sans-serif;
+    height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+.description{
+    text-align: center;
+    font-style: italic;
+    font-size: 1rem;
+    color: white;
+}
+.billamount{
+    text-align: center;
+    font-size:xx-large;
+    color: white;
+    font-weight: bold;
+}
+.input{
+    margin-left: 42rem;
+    margin-top: 0.7rem;
+    margin-bottom: 2rem;
+    border-radius: 00.3rem;
+    background-color: whitesmoke;
+    padding: 0.3rem;
+}
+.cashgiven{
+    text-align: center;
+    font-size:xx-large;
+    color: white;
+    font-weight: bold;
+    
+}
+#error-message{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+#check-button
+{
+    margin-left: 99px;
+    margin-top: 4rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    border-color: white;
+    font-size: 1.5rem;
+    display: block;
+    background-color: var(--primarycolor);
+    max-width: 150px;
+    color: grey;
+    cursor:pointer;
+    margin: 60px 60px 50px 720px;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+.change-table{
+    margin-left: 19rem;
+    font-size: xx-large;
+    border: 1px solid;
+    columns: solid white;
+    grid-row-start: auto;
+    column-gap: 2rem;
+    color: white;
+}
+th,td,table{
+    border: 1px solid white;
+    text-align: center;
+    table-layout:fixed;
+}
